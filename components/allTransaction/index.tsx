@@ -38,7 +38,7 @@ export default function Alltransaction(){
                             <button className="px-4 py-2 flex flex-row items-center rounded-full ml-3
                                  border-solid border-gray-400 border-[1px]">
                                 <Image src={shareIcon} alt=""/>
-                                <h3 className="text-[#55BA68] text-[14px] ml-2">Share</h3>
+                                <h3 className="text-[#448CFF] text-[14px] ml-2">Share</h3>
                             </button>
                         </div>
                     </div>
