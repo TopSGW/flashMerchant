@@ -90,7 +90,7 @@ export default function Notifications(){
                 <div className="mt-10">
                     <h3 className="text-white text-[18px]">Email News & Updates</h3>
                     <div className="mt-1 max-w-[604px]">
-                        <h3 className="text-[14px] text-[#BCBBB9]">Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h3>
+                        <h3 className="text-[14px] text-[#BCBBB9]">Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s</h3>
                         <div className="mt-2 flex flex-row items-center">
                             <Tcheckbox/>
                             <h3 className="text-white text-[14px] ml-3">Tips and Tricks</h3>

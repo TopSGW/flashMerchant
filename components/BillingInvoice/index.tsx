@@ -117,8 +117,8 @@ export default function BillingInvoice(){
                             </div>
                             <div className="mt-6 border-solid border-t-[1px] border-gray-500"></div>
                             <h3 className="text-white text-[17px] mt-6">Charge Notifications</h3>
-                            <h3 className="textt-[14px] text-[#BCBBB9] mt-4">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            <h3 className="text-[14px] text-[#BCBBB9] mt-4">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s
                             </h3>
                             <div className="mt-[37px] w-full flex">
                                 <button className="ml-auto mr-0 px-4 py-2 bg-[#FBBF04] 
@@ -136,7 +136,7 @@ export default function BillingInvoice(){
                             <div className="mt-6 border-solid border-t-[1px] border-gray-500"></div>
                             <h3 className="text-white text-[17px] mt-6">Monthly Budget Exceeded Notifications</h3>
                             <h3 className="textt-[14px] text-[#BCBBB9] mt-4">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s
                             </h3>
                             <div className="w-full flex mt-3">
                                 <button className="ml-auto mr-0 px-4 py-2 bg-[#FBBF04] 

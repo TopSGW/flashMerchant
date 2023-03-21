@@ -100,7 +100,7 @@ export const Bardata = {
   };
 import { setorders } from "../../utils/slice/ordersSlice";
 import { useEffect } from "react";
-export default function overview(){
+export default function Overview(){
     const dispatch = useDispatch();
     useEffect(()=>{
       dispatch(setorders(0));

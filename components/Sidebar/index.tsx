@@ -26,7 +26,7 @@ import SidebarItem from './Item';
 import { useRouter } from 'next/router';
 import { selectordersState } from '../../utils/slice/ordersSlice';
 import { useSelector } from 'react-redux';
-export default function sidebar(){
+export default function Sidebar(){
     const router = useRouter();
     const orders = useSelector(selectordersState);    
     return(
