@@ -9,6 +9,8 @@ import announcerImg from '../assets/image/allTransactions/announcer.png'
 import searchImg from '../assets/image/billingInvoice/search.png'
 import crodownImg from '../assets/image/allTransactions/crodown.png'
 import paymentImage from '../assets/image/billingInvoice/paymentImg.png'
+import linkIcon from '../assets/image/allTransactions/linkIcon.png'
+import shareIcon from '../assets/image/allTransactions/shareIcon.png'
 
 import TableItem from "./TableItem"
 export default function Alltransaction(){
@@ -27,7 +29,18 @@ export default function Alltransaction(){
                       <h3 className='text-[18px] max-md:text-base max-sm:text-sm ml-3 text-white'>Flash Merchant</h3>    
                     </div>
                     <div className=" ml-auto max-lg:hidden">
-                        <input type="date" className="px-4 py-3 max-sm:px-2 max-sm:py-1"/>
+                        <div className="flex flex-row">
+                            <button className="px-4 py-2 flex flex-row items-center rounded-full
+                                 border-solid border-[1px] border-gray-400">
+                                <Image src={linkIcon} alt=""/>
+                                <h3 className="text-[#55BA68] text-[14px] ml-2">Copy Link</h3>
+                            </button>
+                            <button className="px-4 py-2 flex flex-row items-center rounded-full ml-3
+                                 border-solid border-gray-400 border-[1px]">
+                                <Image src={shareIcon} alt=""/>
+                                <h3 className="text-[#55BA68] text-[14px] ml-2">Share</h3>
+                            </button>
+                        </div>
                     </div>
                     <div className="lg:hidden ml-auto">
                         <Menubar/>
